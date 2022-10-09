@@ -12,3 +12,8 @@ for (let el in b) {
     }
 return rArr.map(Number);
 }
+ // OR
+
+function arrayDiff(a, b) {
+    return a.filter(x => b.includes(x) ? false : true);
+}
